@@ -1,0 +1,1 @@
+<?php echo '<h1>Admin Panel - Vizag Florist</h1><ul><li>Dashboard</li><li>Categories</li><li>Products</li><li>Add-ons</li><li>Orders</li><li>Vendors</li><li>CMS</li><li>Banners</li><li>Coupons</li><li>Payouts</li><li>Users</li><li>Settings</li><li>Reports</li></ul>'; ?>
