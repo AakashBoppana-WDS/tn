@@ -1,0 +1,1 @@
+document.querySelectorAll('.addon').forEach(a=>a.addEventListener('change',()=>{const base=parseFloat(document.getElementById('basePrice')?.textContent||0);let t=base;document.querySelectorAll('.addon:checked').forEach(c=>t+=parseFloat(c.dataset.price||0));const el=document.getElementById('dynamicTotal');if(el)el.textContent=t.toFixed(2);}));

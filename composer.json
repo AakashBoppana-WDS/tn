@@ -1,0 +1,14 @@
+{
+  "name": "vizag/florist",
+  "description": "Vizag Florist multi-vendor gifting marketplace",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "razorpay/razorpay": "^2.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
